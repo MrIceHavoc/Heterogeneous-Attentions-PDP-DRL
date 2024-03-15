@@ -1,13 +1,13 @@
 # run: conda env create --file environment.yml
-name: attention_tsp
+name: het_attention_tsp
 channels:
 - pytorch
 dependencies:
-- python>=3.6
-- anaconda
+- python=3.8
+- anaconda=2024
 - tqdm
-- pytorch
-- torchvision
-- cuda91
+- pytorch=2.2
+- torchvision=0.17
+- cuda91=1.0
 - pip:
-  - tensorboard_logger
+  - tensorboard_logger=0.1
