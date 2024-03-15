@@ -5,7 +5,7 @@ channels:
 dependencies:
 - python=3.8
 - anaconda=2024
-- tqdm
+- tqdm=4.65
 - pytorch=2.2
 - torchvision=0.17
 - cuda91=1.0
